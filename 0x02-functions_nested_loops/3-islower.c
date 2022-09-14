@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 /**
  * _islower - main function
  *
@@ -6,7 +6,7 @@
  *
  * Return: 1 if true, 0 if false
  *
- * /
+ */
 
 int _islower(int c)
 {
