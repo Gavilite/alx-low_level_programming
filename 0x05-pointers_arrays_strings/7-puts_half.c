@@ -1,24 +1,30 @@
 #include "main.h"
 /**
- * puts_half - prints half of strings
+ * puts_half - print half array
  * @str: string
- * Return: empty
  */
 void puts_half(char *str)
 {
-	int i, j, max;
+	int a = 0;
+	int b = 0;
 
-	i = 0;
-	while (str[i] != '\0')
+	while (str[a] != '\0')
 	{
-		i++;
+		a++;
 	}
-	max = i;
-	j = max / 2;
-	while (j <= max)
+	a++;
+	if (a % 2 == 0)
 	{
-		_putchar(str[j]);
-		j++;
+		b = a / 2;
+	}
+	else
+	{
+		b = (a - 1) / 2;
+	}
+	while (str[b] != '\0')
+	{
+		_putchar(str[b]);
+		b++;
 	}
 	_putchar('\n');
 }
