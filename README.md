@@ -1,1 +1,1 @@
-Getting Better and Stronger in C
+Better in Programming
