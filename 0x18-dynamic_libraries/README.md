@@ -1,1 +1,1 @@
-Solutions to tasks on dynamic libraries
+0x18. C - Dynamic libraries
